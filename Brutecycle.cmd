@@ -42,9 +42,9 @@ set display=%~4
 
 for %%0 in (%characters%) do set /a total=!total!+1
 
-if %output%=="con" (call :Cycle) else (
+if "%output%"=="con" (call :Cycle) else (
 	for /f "tokens=*" %%0 in ('echo !output!') do @set output="%%~0"
-	call :Cycle > %output%
+	call :Cycle > !output!
 )
 
 if "%interactive%"=="1" (
