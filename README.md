@@ -1,4 +1,4 @@
-[![Say Thanks!](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)](https://saythanks.io/to/ScriptTiger)
+[![Say Thanks!](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)](https://saythanks.io/to/thescripttiger%40gmail.com)
 
 # Brutecycle
 Cycles through any given character set in any given order and outputs to standard output or to a file. For larger data sets, like 128-bit MD5 hashes, 160-bit SHA-1, 256-bit SHA-256, etc., it is recommended to only do a couple character combinations at a time, unless you plan on having the script run for days on end uninterrupted.
